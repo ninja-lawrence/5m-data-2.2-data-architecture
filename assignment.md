@@ -49,7 +49,7 @@ blobs = bucket.list_blobs()
 print("Blobs in {}:".format(bucket.name))
 for ix, item in enumerate(blobs):
     print("\t" + item.name + " (" + str(item.size) + " bytes)")
-    if ix == 10:
+    if ix == 9:
         break
 ```
 
